@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: 600;
+  height: 100vh;
+}
+
+.container-left {
+  flex-basis: 10%;
+}
+
+.container-right {
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container-right-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.content-left {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-right {
+  flex-grow: 1;
+}
+
+nav {
+  background-color: #c22177;
+  height: 100%;
+}
+
+header {
+  background-color: #121023;
+  height: 20%;
+}
+
+article {
+  background-color: #ffffff;
+  color: black;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #121023;
+  height: 20%;
+}
+
+aside {
+  background-color: #320388;
+  height: 100%;
+}
