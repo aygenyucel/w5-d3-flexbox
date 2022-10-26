@@ -17,7 +17,7 @@ body {
 .main-content {
   display: flex;
   flex-direction: row;
-  flex-basis: 80%;
+  flex-basis: 70%;
   /*flex-basis controls the height, because our parent flex-direction is column*/
   width: 100%;
 }
@@ -25,7 +25,7 @@ body {
 .header,
 .footer {
   background-color: #121023;
-  flex-basis: 20%;
+  flex-basis: 15%;
 }
 
 .article {

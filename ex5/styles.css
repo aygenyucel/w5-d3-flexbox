@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  /* margin: 5px; */
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.container-column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.box {
+  margin: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  justify-content: space-evenly;
+  background-color: #a32e76;
+  color: white;
+  height: 100vh;
+}
