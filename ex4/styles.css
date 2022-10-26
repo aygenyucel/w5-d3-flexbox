@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  /* height: 100%; */
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* height: 100%; */
+  min-height: 100vh;
+  font-weight: 600;
+}
+
+.container-top {
+  min-height: 20vh;
+}
+
+header {
+  min-height: 20vh;
+}
+
+.container-middle {
+  display: flex;
+  flex-direction: row;
+  /* height: 80%; */
+  min-height: 80vh;
+}
+
+.container-bottom {
+  /* height: 20%; */
+  min-height: 20vh;
+}
+
+nav {
+  background-color: #c22177;
+  flex-basis: 20%;
+}
+
+header {
+  background-color: #121023;
+}
+
+article {
+  background-color: #ffffff;
+  color: black;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #121023;
+  min-height: 20vh;
+}
+
+aside {
+  background-color: #320388;
+  flex-basis: 20%;
+}
