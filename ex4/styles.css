@@ -34,9 +34,15 @@ header {
   min-height: 20vh;
 }
 
-nav {
+.navbar-desktop {
   background-color: #c22177;
   flex-basis: 20%;
+}
+
+.navbar-tablet {
+  background-color: #c22177;
+  flex-basis: 10vh;
+  display: none;
 }
 
 header {
@@ -57,4 +63,18 @@ footer {
 aside {
   background-color: #320388;
   flex-basis: 20%;
+}
+
+@media screen and (max-width: 767px) {
+  /* Tablet CSS */
+  .navbar-desktop {
+    display: none;
+  }
+  .navbar-tablet {
+    display: block;
+  }
+
+  .container-middle {
+    min-height: 70vh;
+  }
 }
