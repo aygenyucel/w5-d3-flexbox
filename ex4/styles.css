@@ -78,3 +78,15 @@ aside {
     min-height: 70vh;
   }
 }
+
+@media screen and (max-width: 575px) {
+  /* Mobile CSS */
+  .container-middle {
+    flex-direction: column;
+  }
+
+  aside {
+    /* min-height: 10vh; */
+    flex-basis: 10vh;
+  }
+}
